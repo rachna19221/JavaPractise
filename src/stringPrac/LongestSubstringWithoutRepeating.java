@@ -17,7 +17,8 @@ public class LongestSubstringWithoutRepeating  {
                     left++; // Shrink the window from the left
                 }
                 set.add(s.charAt(right)); // Add the new character to the set
-                maxLength = Math.max(maxLength, right - left + 1); // Update the max length
+                //maxLength = Math.max(maxLength, right - left + 1);
+                 maxLength = Math.max(maxLength,set.size());//Update the max length
             }
 
             return maxLength;
