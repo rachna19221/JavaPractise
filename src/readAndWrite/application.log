@@ -1,0 +1,9 @@
+2024-06-21 10:23:45 INFO  MainService - Application started successfully
+2024-06-21 10:23:50 DEBUG AuthService - Token validated for userId=123
+2024-06-21 10:24:03 ERROR DatabaseService - Failed to connect to database: timeout
+2024-06-21 10:24:05 INFO  PaymentService - Payment initiated for orderId=987
+2024-06-21 10:24:10 ERROR AuthService - NullPointerException at line 54 in AuthService.java
+2024-06-21 10:24:12 WARN  CacheService - Cache miss for key: USER_123
+2024-06-21 10:24:15 DEBUG UserService - User profile updated for userId=123
+2024-06-21 10:24:20 ERROR ReportService - FileNotFoundException: /reports/weekly.csv not found
+2024-06-21 10:24:25 INFO  Scheduler - Next job scheduled at 12:00 PM

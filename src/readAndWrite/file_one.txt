@@ -1,0 +1,5 @@
+Line 1: This is the original file.
+Line 2: It contains several lines of text.
+Line 3: Each line may or may not match.
+Line 4: This line is unique to file1.
+Line 5: Common ending.
